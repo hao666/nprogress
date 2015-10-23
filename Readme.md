@@ -1,21 +1,20 @@
 NProgress
 =========
 
-Slim progress bars for Ajax'y applications. Inspired by Google, YouTube, and
-Medium.
+这个好看的进度条 灵感来自于 Google,YouTube,Medium.
 
 
-Installation
+安装
 ------------
 
-Add [nprogress.js] and [nprogress.css] to your project.
+添加 [nprogress.js] and [nprogress.css]到你的项目.
 
 ```html
 <script src='nprogress.js'></script>
 <link rel='stylesheet' href='nprogress.css'/>
 ```
 
-NProgress is available via [bower] and [npm] and [spm].
+NProgress 安装方法 [bower] 和 [npm] 和 [spm].
 
     $ bower install --save nprogress
     $ npm install --save nprogress
@@ -24,10 +23,10 @@ NProgress is available via [bower] and [npm] and [spm].
 [npm]: https://www.npmjs.org/package/nprogress
 [spm]: http://spmjs.io/package/nprogress
 
-Basic usage
+使用方法
 -----------
 
-Simply call `start()` and `done()` to control the progress bar.
+调用 `start()` and `done()` 可以控制进度条.
 
 ~~~ js
 NProgress.start();
